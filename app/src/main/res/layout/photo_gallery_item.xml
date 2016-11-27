@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_gallery_frame_layout"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    >
+
+
+    <scrige.photoview.view.ImageViewBoard
+        android:id="@+id/iv_gallery_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:padding="2dp"
+        android:src="@drawable/defaultpic"/>
+
+</RelativeLayout>
+
